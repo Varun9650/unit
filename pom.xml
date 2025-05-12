@@ -25,13 +25,7 @@
         -DnewVersion=... -->
     <project.build.outputTimestamp>2024-11-28T14:37:52Z</project.build.outputTimestamp>
 
-<distributionManagement>
-    <repository>
-        <id>nexus</id>
-        <name>Nexus Release Repository</name>
-        <url>http://157.66.191.31:8081/repository/custom_maven2_hosted/</url>
-    </repository>
-</distributionManagement>
+
 
 
 
@@ -49,7 +43,13 @@
     <spring-format.version>0.0.43</spring-format.version>
 
   </properties>
-
+<distributionManagement>
+    <repository>
+        <id>nexus</id>
+        <name>Nexus Release Repository</name>
+        <url>http://157.66.191.31:8081/repository/custom_maven2_hosted/</url>
+    </repository>
+</distributionManagement>
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
     <dependency>
