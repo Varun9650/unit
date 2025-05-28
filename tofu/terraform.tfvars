@@ -1,0 +1,6 @@
+project_id  = "tough-ivy-453305-n7"
+region      = "us-central1"
+zone        = "us-central1-a"
+vm_name     = "my-gcp-vm"
+machine_type = "e2-medium"
+image       = "debian-cloud/debian-11"
